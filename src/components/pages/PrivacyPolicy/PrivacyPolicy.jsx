@@ -5,8 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <main>
       <Navbar />
-      <div>
-        <h1>Privacy Policy</h1>
+      <div className="privacy">
         <div className="privacy-policy-container">
           <h1>Privacy Policy</h1>
           <p>Last updated: February 15, 2024</p>
