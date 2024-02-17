@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import Navbar from "../../ui/Navbar/Navbar";
+// import screenshotImage from "../../../assets/screenshot.JPG"
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           <p>Keep a note nearby!</p>
         </div>
         <div className="image-container">
-          <img src="/public/screenshot.jpg" alt="screenshot of chrome extension" />
+          <img src={'/screenshot.jpg'} alt="screenshot of chrome extension" />
         </div>
 
         <div className="links">
