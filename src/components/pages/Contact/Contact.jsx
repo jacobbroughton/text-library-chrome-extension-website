@@ -7,9 +7,7 @@ const Contact = () => {
       <Navbar />
       <div className="contact">
         <h1>Contact</h1>
-        <a href="mailto:jacobbroughtondev@gmail.com">
-          Email me if you have any questions. - Jacob
-        </a>
+        <p>Feel free to <a href="mailto:jacobbroughtondev@gmail.com">email me</a> if you have any questions. - Jacob</p>
       </div>
     </main>
   );

@@ -11,10 +11,17 @@ nav > .nav-container {
   margin: 0 auto;
   max-width: 800px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
+  gap: 10px;
   padding: 10px;
 }
 
 nav > .nav-container > a {
   color: black;
+}
+
+nav > .nav-container > a:hover,
+nav > .nav-container > a.current {
+  text-decoration: underline;
 }

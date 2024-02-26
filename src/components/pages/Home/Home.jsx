@@ -13,7 +13,7 @@ const Home = () => {
           <p>Keep a note nearby!</p>
         </div>
         <div className="image-container">
-          <img src={'/screenshot.jpg'} alt="screenshot of chrome extension" />
+          <img src={'/images/screenshot.JPG'} alt="screenshot of chrome extension" />
         </div>
 
         <div className="links">
